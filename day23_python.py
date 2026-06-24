@@ -15,7 +15,7 @@ for i in str1.split():
         print(i)
 
 
-str1="456this-is-python 123"
+str1="456 this-is-python 123"
 count=0
 for i in str1:
     if i.isdigit():
