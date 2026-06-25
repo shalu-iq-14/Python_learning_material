@@ -56,3 +56,21 @@ print(difference_num)
 
 
 # subset()
+set1={1,2,3,4,5,6}
+set2={1,2,3}
+print(set2.issubset(set1))
+print(set1.issubset(set2))
+
+
+# superset()
+set1={1,2,3,4,5,6}
+set2={1,2,3}
+print(set2.issuperset(set1))
+print(set1.issuperset(set2))
+
+
+# union
+num1={1,2,3,4,5}
+num2={4,5,6,7,8}
+union_num=num1.union(num2)
+print(union_num)
