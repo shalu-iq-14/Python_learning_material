@@ -1,0 +1,27 @@
+from datetime import datetime
+import time
+current=datetime.now().today()
+print(current)
+
+
+
+from datetime import datetime
+import time
+c= datetime.now().strftime("%A %d-%B-%Y, %H:%M:%S")
+print(c)
+
+
+
+from datetime import datetime
+import time
+time.sleep(5)
+c= datetime.now().strftime("%A %d-%B-%Y, %H:%M:%S")
+print(c)
+
+
+
+import pyautogui
+import time
+time.sleep(4)
+for i in range(10):
+    pyautogui.typewrite("hello how are you samyak", interval=0.05)

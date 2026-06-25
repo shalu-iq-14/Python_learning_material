@@ -94,7 +94,7 @@ print(res)
 
 profile={"aman":{
     "address":["noida","delhi","mumbai"],
-    "hobbbies":["reading","cooking","travelling"],
+    "hobbies":["reading","cooking","travelling"],
     "password":{"insta":4354, "fb":76589}
     },
     "shalu":{
@@ -102,5 +102,9 @@ profile={"aman":{
         "hobbies":["reading","painting","travelling"],
         "password":{"insta":7678, "fb":8669}},
 }
-res=profile["aman"]["password"]["insta"]
-print(res)
+# res=profile["aman"]["password"]["insta"]
+# print(res)
+print(profile["shalu"]["hobbies"])
+print(profile["aman"]["hobbies"])
+
+
