@@ -9,7 +9,7 @@
 # ---> used in fast lookup
 
 
-# --------------CREATION OF TUPLE------------------------
+# --------------CREATION OF dictionary------------------------
 stu_profile={"aman":"noida", "rohan":"delhi"}
 print(type(stu_profile))
 print(stu_profile)
