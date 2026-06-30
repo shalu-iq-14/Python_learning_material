@@ -1,0 +1,43 @@
+import os
+print(os.getcwd())
+
+new_dir="mod_pyth" 
+os.mkdir(new_dir)
+
+print(os.listdir('.'))
+import os
+dir_name="mod_pyth"
+file_name="shivam.txt"
+full_file=os.path.join(dir_name,file_name)
+print(full_file)
+
+file_name="shubham.txt"
+find_file= os.path.exists(file_name)
+print(f"file exists",{find_file})
+
+file_name="aman.txt"
+find_file=os.path.exists(file_name)
+print(find_file)
+
+
+print(os.path.exists('kamal.txt'))
+
+dir_name= "mod_pyth"
+find_dir= os.path.isdir(dir_name)
+print(f"folder exists",{find_dir})
+
+file_name="shubham.txt"
+absoulte_path=os.path.abspath(file_name)
+print(absoulte_path)
+
+dir_name="example_fruit"
+if not os.path.exists(dir_name):
+    os.mkdir(dir_name)
+
+fruits=["apple","orange","grapes","mango"]
+for fru in fruits:
+    all_file= os.path.join(dir_name, f"{fru}.txt")
+    with open(all_file,'w') as file:
+        file.write(f"fruits file {fru}")
+
+print("all file created successfully....✅✅✅")
